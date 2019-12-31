@@ -7,12 +7,14 @@ Vue.config.productionTip = false;
 
 let app = '';
 const config = {
-  apiKey: 'YOUR_API_KEY',
-  authDomain: 'YOUR_PROJECT_ID.firebaseapp.com',
-  databaseURL: 'https://YOUR_PROJECT_ID.firebaseio.com',
-  projectId: 'YOUR_PROJECT_ID',
-  storageBucket: 'YOUR_PROJECT_ID.appspot.com',
-  messagingSenderId: 'YOUR_MESSAGING_SEND_ID'
+  apiKey: "AIzaSyBXwo9D5d-jtqKXpTXhCAjhIQLSYg1-hnI",
+      authDomain: "linco-lingo-2020.firebaseapp.com",
+      databaseURL: "https://linco-lingo-2020.firebaseio.com",
+      projectId: "linco-lingo-2020",
+      storageBucket: "linco-lingo-2020.appspot.com",
+      messagingSenderId: "891655828483",
+      appId: "1:891655828483:web:8cf2e328cc6c348b86ca36",
+      measurementId: "G-BZC940XR78"
 };
 
 firebase.initializeApp(config);
