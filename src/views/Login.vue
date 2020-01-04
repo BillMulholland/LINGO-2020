@@ -19,9 +19,6 @@
           <small>You don't have an account ? You can <router-link to="/sign-up">create one</router-link>
           </small>
         </div>
-
-
-
       </form>
 
     </div>
