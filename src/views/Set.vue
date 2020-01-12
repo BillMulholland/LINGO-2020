@@ -1,25 +1,24 @@
 <template>
-  <div class="home">
-   <TopBar />
-   <div class="container">
-    <HelloWorld msg="Welcome to Linco"/>
-    
-  </div>
+  <div class="Set">
+    <TopBar />
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <button @click="logout">Logout</button>
+  
   </div>
 </template>
 
 <script>
 import firebase from 'firebase';
 // @ is an alias to /src
-//import HelloWorld from '@/components/HelloWorld.vue'
+import HelloWorld from '@/components/HelloWorld.vue'
 import TopBar from '@/components/TopBar.vue'
 
 
 export default {
-  name: 'home',
+  name: 'set',
   components: {
-  ///  HelloWorld,
-    TopBar
+    HelloWorld,
+    TopBar,
   },
   methods: {
     logout: function() {

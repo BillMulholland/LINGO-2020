@@ -36,6 +36,15 @@ const router = new Router({
         requiresAuth: true
       }
     }
+    ,
+    {
+      path: '/set',
+      name: 'Set',
+      component: Set,
+      meta: {
+        requiresAuth: true
+      }
+    }
   ]
 });
 
