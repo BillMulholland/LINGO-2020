@@ -1,7 +1,7 @@
 <template>
   <div class="Set">
     <TopBar />
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    SET
     <button @click="logout">Logout</button>
   
   </div>

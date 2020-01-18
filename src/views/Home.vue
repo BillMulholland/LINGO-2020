@@ -2,7 +2,7 @@
   <div class="home">
    <TopBar />
    <div class="container">
-    <HelloWorld msg="Welcome to Linco"/>
+    <h1>Welcome to Linco</h1>
     
   </div>
   </div>
